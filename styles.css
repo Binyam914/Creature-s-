@@ -1,0 +1,57 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background-color: #f5f5f5;
+}
+
+h1, h3, p {
+    text-align: center;
+}
+
+.buttons {
+    margin-bottom: 20px;
+}
+
+.creatures-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.creature {
+    padding: 10px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    max-width: 300px;
+    text-align: center;
+    background-color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+.creature:hover {
+    background-color: #f0f0f0;
+}
+
+.creature img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.creature h3 {
+    margin-top: 10px;
+}
+
+.creature p {
+    font-size: 14px;
+}
